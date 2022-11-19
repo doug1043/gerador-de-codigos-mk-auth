@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gerar Código de Notas</title>
+    <link rel="icon" type="image/png" href="img/icon.ico"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous">
+    <link href="css/layout.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-4">
+          <img src="img/Logo Fibranet__bco.png" class="logo" alt="Fibranet" onclick="enableegg()">
+        </div>
+
+        <div class="col-8">
+
+          <div class="col-12 shadow p-3 mb-5 bg-body rounded">
+            <label class="form-label">Gerar código de arquivo de contratos</label>
+            <textarea class="form-control" id="linkpdf" rows="3"
+              placeholder="Link do arquivo..."></textarea>
+            <div class="botao">
+              <button onclick="gerarPDF()" type="button" class="btn btn-success"
+                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem;
+                --bs-btn-font-size: .75rem;">Copiar
+                Código</button>
+            </div>
+          </div>
+
+          <div class="col-12 shadow p-3 mb-5 bg-body rounded">
+            <label class="form-label">Gerar código de imagens</label>
+            <textarea class="form-control" id="linkimg" rows="3"
+              placeholder="Link do arquivo..."></textarea>
+            <div class="botao">
+              <button onclick="gerarIMG()" type="button" class="btn btn-success"
+                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem;
+                --bs-btn-font-size: .75rem;">Copiar
+                Código</button>
+              <button onclick="location.href='Upload.html'" type="button"
+                class="btn btn-success"
+                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem;
+                --bs-btn-font-size: .75rem;">Carregar Imagem</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/gerador.js"></script>
+  <script src="js/d0ug.js"></script>
+</html>
