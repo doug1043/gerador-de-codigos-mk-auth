@@ -9,7 +9,7 @@ Este projeto foi possível utilizando a API do servidor de hospegem de imagens g
 
 ## Configuração
 
-Insira o CLientID para acesso à API do [IMGUR](https://imgur.com/). Para ter acesso a um ClienteID é necessário acessar a página de API [imgur](https://api.imgur.com/) e solicitar uma chave de acesso.
+Insira o ClientID para acesso à API do [IMGUR](https://api.imgur.com/). Para ter acesso a um ClienteID é necessário acessar a página de API [IMGUR](https://api.imgur.com/) e solicitar uma chave de acesso.
 
 ```javascript
 // js/upload.js
